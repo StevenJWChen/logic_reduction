@@ -1,0 +1,346 @@
+{
+  "file": "realistic_example.py",
+  "algorithm": "Intelligent (Efficiency-based)",
+  "original_test_count": 480,
+  "reduced_test_count": 2,
+  "coverage_percentage": 100.0,
+  "reduction_percentage": 99.58333333333333,
+  "execution_time": 0.001096963882446289,
+  "test_cases": [
+    {
+      "values": {
+        "customer_type": "regular",
+        "order_amount": 50,
+        "payment_method": "cash",
+        "shipping_zone": "invalid"
+      },
+      "covered_branches": [
+        "else_0"
+      ]
+    },
+    {
+      "values": {
+        "customer_type": "regular",
+        "order_amount": -10,
+        "payment_method": "credit",
+        "shipping_zone": "domestic"
+      },
+      "covered_branches": [
+        "else_0",
+        "if_0"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "customer_type",
+          "operator": "not in",
+          "value": "<ast.List object at 0x101a5fcd0>"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": "<=",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">",
+          "value": "10000"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "customer_type",
+          "operator": "==",
+          "value": "vip"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "customer_type",
+          "operator": "==",
+          "value": "premium"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">=",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": "<",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "payment_method",
+          "operator": "==",
+          "value": "credit"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "payment_method",
+          "operator": "==",
+          "value": "debit"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "payment_method",
+          "operator": "!=",
+          "value": "debit"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "shipping_zone",
+          "operator": "==",
+          "value": "domestic"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "shipping_zone",
+          "operator": "==",
+          "value": "international"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "shipping_zone",
+          "operator": "!=",
+          "value": "international"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "final_amount",
+          "operator": ">",
+          "value": "5000"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "final_amount",
+          "operator": "<=",
+          "value": "5000"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">",
+          "value": "10000"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">=",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": "<",
+          "value": "1000"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "customer_type",
+          "operator": "==",
+          "value": "premium"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">=",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": "<",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "payment_method",
+          "operator": "==",
+          "value": "debit"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "payment_method",
+          "operator": "!=",
+          "value": "debit"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">=",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": "<",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "shipping_zone",
+          "operator": "==",
+          "value": "international"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "shipping_zone",
+          "operator": "!=",
+          "value": "international"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">=",
+          "value": "500"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": "<",
+          "value": "500"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": ">=",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "order_amount",
+          "operator": "<",
+          "value": "200"
+        }
+      ]
+    }
+  ]
+}

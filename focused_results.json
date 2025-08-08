@@ -1,0 +1,84 @@
+{
+  "file": "focused_complex.py",
+  "algorithm": "Greedy",
+  "original_test_count": 1,
+  "reduced_test_count": 1,
+  "coverage_percentage": 100.0,
+  "reduction_percentage": 0.0,
+  "execution_time": 4.0531158447265625e-06,
+  "test_cases": [
+    {
+      "values": {},
+      "covered_branches": [
+        "else_0",
+        "if_0"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    },
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    },
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    },
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    },
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    },
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    },
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    },
+    {
+      "id": "if_0",
+      "conditions": []
+    },
+    {
+      "id": "else_0",
+      "conditions": []
+    }
+  ]
+}

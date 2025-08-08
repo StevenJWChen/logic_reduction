@@ -1,0 +1,9 @@
+{
+  "age": [17, 18, 25, 65],
+  "amount": [-1, 0, 1, 100, 1000, 1001],
+  "is_premium": [true, false],
+  "country": ["US", "CA", "UK", "FR"],
+  "user_role": ["admin", "user", "guest", "unknown"],
+  "resource_type": ["public", "private", "restricted"],
+  "time_of_day": [8, 9, 12, 17, 18]
+}

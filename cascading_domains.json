@@ -1,0 +1,13 @@
+{
+  "A": [true, false],
+  "B": [true, false],
+  "C": [true, false],
+  "enable": [true, false],
+  "debug": [true, false],
+  "verbose": [true, false],
+  "admin": [true, false],
+  "input_valid": [true, false],
+  "authenticated": [true, false],
+  "authorized": [true, false],
+  "system_ready": [true, false]
+}

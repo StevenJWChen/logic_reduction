@@ -1,0 +1,19 @@
+{
+  "A": [true, false],
+  "B": [true, false],
+  "C": [true, false],
+  "D": [true, false],
+  "E": [true, false],
+  "X": [true, false],
+  "Y": [true, false],
+  "Z": [true, false],
+  "W": [true, false],
+  "V": [true, false],
+  "P": [true, false],
+  "Q": [true, false],
+  "R": [true, false],
+  "Alpha": [true, false],
+  "Beta": [true, false],
+  "Gamma": [true, false],
+  "Delta": [true, false]
+}

@@ -1,0 +1,102 @@
+{
+  "file": "simple_example.py",
+  "algorithm": "Intelligent (Efficiency-based)",
+  "original_test_count": 25,
+  "reduced_test_count": 2,
+  "coverage_percentage": 100.0,
+  "reduction_percentage": 92.0,
+  "execution_time": 2.4080276489257812e-05,
+  "test_cases": [
+    {
+      "values": {
+        "x": -5,
+        "y": 5
+      },
+      "covered_branches": [
+        "else_0"
+      ]
+    },
+    {
+      "values": {
+        "x": 1,
+        "y": 5
+      },
+      "covered_branches": [
+        "if_0",
+        "else_0"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "x",
+          "operator": ">",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "y",
+          "operator": ">",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "y",
+          "operator": "<=",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "y",
+          "operator": ">",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "y",
+          "operator": "<=",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "if_0",
+      "conditions": [
+        {
+          "variable": "y",
+          "operator": ">",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "else_0",
+      "conditions": [
+        {
+          "variable": "y",
+          "operator": "<=",
+          "value": "10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "A": [true, false],
+  "B": [true, false], 
+  "C": [true, false],
+  "D": [true, false],
+  "state": ["idle", "active", "error"],
+  "trigger": [true, false],
+  "enable": [true, false]
+}
